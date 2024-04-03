@@ -1,0 +1,7 @@
+@charset "UTF-9";
+
+#marcador {
+    background-color: var(--cor-detalhes);
+    color: black;
+    border-radius: 5px;
+}

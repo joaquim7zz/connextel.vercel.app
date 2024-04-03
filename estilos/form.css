@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+
+    /*CORES PARA O SITE*/
+
+    --cor-principal: #D1D1D1;
+    --cor-back: #333333;
+    --cor-nav: #414141;
+    --cor-detalhes: #FD8A24;
+
+    /*FONTES*/
+
+    --fonte-titulos: "Share Tech Mono", monospace;
+    --fonte-textos: "Share Tech", sans-serif;
+    --fonte: 'Bebas Neue', cursive;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-textos)
+}
+
+main h2 {
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+main p {
+    margin-left: -10px;
+    padding: 15px;
+    font-family: var(--fonte-textos);
+    margin: 15px 0px;
+    text-indent: 0px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    font-size: 1.2em;
+    margin-bottom: 4px;
+}
+
+form input {
+    padding: 15px;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    transition: all 0.7s;
+}
+
+form input:focus {
+    border-radius: 10px;
+    border: 2px solid #FD8A24;
+}
+
+form textarea {
+    padding: 10px;
+    border: 0;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    transition: all 0.7s;
+}
+
+form textarea:focus {
+    border-radius: 10px;
+
+}
+
+form button {
+    font-family: var(--fonte-textos);
+    padding: 15px;
+    cursor: pointer;
+    font-size: 1.2em;
+    background: transparent;
+    border: 3px solid #FD8A24;
+    color: var(--cor-nav);
+    transition: all 1s;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+form button:hover {
+    background-color: #FD8A24;
+    border-radius: 10px;
+}
+
+/*estilo pagina de obrigado pelo contato*/
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.prgf {
+    font-family: var(--fonte-textos);
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.obgd {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+
+}
+
+.voltar {
+    text-decoration: none;
+    background-color: #FD8A24;
+    padding: 10px 55px ;
+    transition: all 0.7s;
+    color: var(--cor-back);
+}
+
+.voltar:hover {
+    border-radius: 15px;
+
+}
